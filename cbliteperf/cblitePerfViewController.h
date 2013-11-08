@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CouchbaseLite/CouchbaseLite.h>
+#import <sqlite3.h>
 
 @interface cblitePerfViewController : UIViewController
+
+@property (strong, nonatomic) CBLDatabase *database;
+@property int numdocs;
+
+@property (strong, nonatomic) NSString *databasePath;
+@property (nonatomic) sqlite3 *sqldb;
 
 @end

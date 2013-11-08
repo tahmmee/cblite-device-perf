@@ -21,6 +21,12 @@
 		C3202F07182D5F9E00B8DDA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3202EE9182D5F9E00B8DDA3 /* UIKit.framework */; };
 		C3202F0F182D5F9E00B8DDA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3202F0D182D5F9E00B8DDA3 /* InfoPlist.strings */; };
 		C3202F11182D5F9E00B8DDA3 /* cbliteperfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3202F10182D5F9E00B8DDA3 /* cbliteperfTests.m */; };
+		C3202F1B182D5FB400B8DDA3 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3202F1A182D5FB400B8DDA3 /* CouchbaseLite.framework */; };
+		C3202F1D182D5FEF00B8DDA3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3202F1C182D5FEF00B8DDA3 /* CFNetwork.framework */; };
+		C3202F1F182D5FFB00B8DDA3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3202F1E182D5FFB00B8DDA3 /* Security.framework */; };
+		C3202F21182D600400B8DDA3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3202F20182D600300B8DDA3 /* SystemConfiguration.framework */; };
+		C3202F23182D600C00B8DDA3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3202F22182D600C00B8DDA3 /* libsqlite3.dylib */; };
+		C3202F25182D601400B8DDA3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3202F24182D601400B8DDA3 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		C3202F0C182D5F9E00B8DDA3 /* cbliteperfTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cbliteperfTests-Info.plist"; sourceTree = "<group>"; };
 		C3202F0E182D5F9E00B8DDA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3202F10182D5F9E00B8DDA3 /* cbliteperfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cbliteperfTests.m; sourceTree = "<group>"; };
+		C3202F1A182D5FB400B8DDA3 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CouchbaseLite.framework; path = ../CouchbaseLite.framework; sourceTree = "<group>"; };
+		C3202F1C182D5FEF00B8DDA3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C3202F1E182D5FFB00B8DDA3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C3202F20182D600300B8DDA3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C3202F22182D600C00B8DDA3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C3202F24182D601400B8DDA3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +72,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3202F25182D601400B8DDA3 /* libz.dylib in Frameworks */,
+				C3202F23182D600C00B8DDA3 /* libsqlite3.dylib in Frameworks */,
+				C3202F21182D600400B8DDA3 /* SystemConfiguration.framework in Frameworks */,
+				C3202F1F182D5FFB00B8DDA3 /* Security.framework in Frameworks */,
+				C3202F1D182D5FEF00B8DDA3 /* CFNetwork.framework in Frameworks */,
 				C3202EE8182D5F9E00B8DDA3 /* CoreGraphics.framework in Frameworks */,
 				C3202EEA182D5F9E00B8DDA3 /* UIKit.framework in Frameworks */,
+				C3202F1B182D5FB400B8DDA3 /* CouchbaseLite.framework in Frameworks */,
 				C3202EE6182D5F9E00B8DDA3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +119,12 @@
 		C3202EE4182D5F9E00B8DDA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3202F24182D601400B8DDA3 /* libz.dylib */,
+				C3202F22182D600C00B8DDA3 /* libsqlite3.dylib */,
+				C3202F20182D600300B8DDA3 /* SystemConfiguration.framework */,
+				C3202F1E182D5FFB00B8DDA3 /* Security.framework */,
+				C3202F1C182D5FEF00B8DDA3 /* CFNetwork.framework */,
+				C3202F1A182D5FB400B8DDA3 /* CouchbaseLite.framework */,
 				C3202EE5182D5F9E00B8DDA3 /* Foundation.framework */,
 				C3202EE7182D5F9E00B8DDA3 /* CoreGraphics.framework */,
 				C3202EE9182D5F9E00B8DDA3 /* UIKit.framework */,
@@ -379,9 +403,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tmcafee/sandbox,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cbliteperf/cbliteperf-Prefix.pch";
 				INFOPLIST_FILE = "cbliteperf/cbliteperf-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +421,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tmcafee/sandbox,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cbliteperf/cbliteperf-Prefix.pch";
 				INFOPLIST_FILE = "cbliteperf/cbliteperf-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
